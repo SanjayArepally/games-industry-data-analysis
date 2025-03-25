@@ -22,8 +22,7 @@ This project performs an advanced market analysis of the global games industry u
 4. **Predictive Modeling & Feature Importance**
 
 ## 📈 Sample Visualizations
-![Genre Sales](images/genre_sales.png)
-![User Rating Boxplot](images/user_rating_genre.png)
+
 
 ## 🚀 How to Run
 1. Clone this repo
