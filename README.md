@@ -1,36 +1,82 @@
-# games-industry-data-analysis
-
 # 🎮 Games Industry Data Analysis
 
-This project performs an advanced market analysis of the global games industry using Python and machine learning. It was developed as part of an Executive Post Graduate Certification in Data Analytics.
+This project presents an in-depth analysis of the video games industry using data manipulation, visualization, and machine learning techniques. It was completed as part of the Executive Post Graduate Certification in Data Analytics.
+
+---
 
 ## 📌 Objectives
-- Clean and preprocess industry data
-- Perform Exploratory Data Analysis (EDA)
-- Conduct statistical and correlation analysis
-- Build a machine learning model to predict user ratings
+- Clean and preprocess raw gaming data
+- Explore trends in sales, genres, platforms, and ratings
+- Apply statistical analysis to understand rating patterns
+- Predict user ratings using machine learning
 
-## 📊 Tools & Technologies
-- Python (Pandas, Seaborn, Matplotlib, Scikit-learn)
-- Jupyter Notebook / Google Colab
-- Machine Learning (Random Forest Regressor)
+---
+
+## 🧰 Tools & Technologies
+- **Languages**: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+- **Environment**: Jupyter Notebook / Google Colab
+- **ML Model**: Random Forest Regressor
+
+---
 
 ## 📂 Tasks Covered
-1. **Data Cleaning & Preprocessing**
-2. **Exploratory Data Analysis**
-3. **Advanced Analysis (Time Series, ANOVA, Correlation)**
-4. **Predictive Modeling & Feature Importance**
+
+### 1️⃣ Data Cleaning & Preprocessing
+- Handled missing and inconsistent values
+- Standardized `Genre` and `Platform` names
+- Created a new `Decade` feature from `Release Year`
+
+### 2️⃣ Exploratory Data Analysis
+- Sales and ratings trends over time
+- Genre and platform-based visualizations
+- Top-rated genres and platforms
+
+### 3️⃣ Advanced Analysis
+- Time series trend analysis
+- Hypothesis testing using ANOVA
+- Correlation heatmaps to detect relationships
+
+### 4️⃣ Machine Learning
+- Built a model to predict user ratings
+- OneHotEncoding for categorical features
+- Feature importance analysis using Random Forest
+
+---
 
 ## 📈 Sample Visualizations
 
+### 🎮 Total Sales by Genre
+![Genre Sales](images/genre_sales.png)
 
+### ⭐ User Rating Distribution by Genre
+![Rating Boxplot](images/ratings_boxplot.png)
 
-## 🚀 How to Run
-1. Clone this repo
-2. Open `games_analysis.ipynb` in Jupyter or Colab
-3. Install dependencies (`pip install -r requirements.txt` if needed)
-4. Run each cell and explore the insights!
+### 🕹️ Games Released Per Decade
+![Releases by Decade](images/releases_by_decade.png)
+
+### 🧠 Feature Importance in Rating Prediction
+![Feature Importance](images/feature_importance.png)
+
+---
+
+## 🚀 How to Run This Project
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/games-industry-data-analysis.git
+   cd games-industry-data-analysis
+   ```
+2. Launch the notebook in Jupyter or Google Colab.
+3. Run all cells in `games_analysis.ipynb`.
+4. View plots and model insights.
+
+---
 
 ## 📜 License
 MIT License
 
+---
+
+## 🤝 Acknowledgment
+This project was created as part of the **Executive Post Graduate Certification in Data Analytics** program offered by Intellipaat.
+
+For questions, reach out to me on www.linkedin.com/in/sanjay-arepally-21a10b1999c or create an issue on this repo!
